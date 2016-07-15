@@ -29,7 +29,6 @@ parser.add_argument('files', metavar='filename', nargs='*',
 
 args = parser.parse_args()
 
-
 # build a list of files to decode
 filelist = []
 if args.dir:
@@ -39,6 +38,9 @@ if args.dir:
 	filelist += args.files
 else:
 	filelist = args.files
+
+if filelist == []:
+	parser.print_help()
 
 # sslsplit was used to capture the traffic between the iPhone app and the HS110 plug
 # it turns out that the raw pcap could've been used, there is no SSL going on
