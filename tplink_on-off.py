@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+# Control relay on TP-Link plug
+#
+#
+#   Copyright 2016 Christopher Horn (http://chrishorn.info)
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   Please see the LICENSE file for more details.
+
 import socket
 from bitstring import BitArray
 import signal
