@@ -2,7 +2,7 @@
 Command-line control of TP-Link Smart Plug
 
 # Description
-The most useful thing in this repository is a program to control a TP-Link [HS110 Wi-Fi Smart Plug](http://www.tp-link.com/en/products/details/HS110.html). This means that you can flip the relay in the smart plug on & off from your computer.
+Probably the most useful thing in this repository is a program to control a TP-Link [HS110 Wi-Fi Smart Plug](http://www.tp-link.com/en/products/details/HS110.html). This program allows you to flip the relay in the smart plug on & off from your computer.
 
 I use this to control a space heater under my desk from my Mac's menubar, like so:
 ![MacOS menu bar](https://raw.githubusercontent.com/beefstew/tpdecode/master/images/MacOS%20menu%20bar.png)
@@ -15,7 +15,7 @@ The `tplink_on-off.py` control program is a simple Python script. To run it, you
 1. Install [Python 3](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 2. Install the [bitstring](https://pypi.python.org/pypi/bitstring/3.1.3) module using [PIP](https://packaging.python.org/tutorials/installing-packages/)
 
-	`$ pip install bitstring`
+	`$ pip3 install bitstring`
 
 3. Copy `tplink_on-off.py` to anywhere on your local disk
 
